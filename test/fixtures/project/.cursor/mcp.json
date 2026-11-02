@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "cursor-fixture": {
+      "command": "echo",
+      "env": {
+        "SECRET": "fixture-token-xyz"
+      }
+    }
+  }
+}

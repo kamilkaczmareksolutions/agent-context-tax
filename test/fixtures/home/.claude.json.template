@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "user-global": {
+      "command": "echo"
+    }
+  },
+  "projects": {
+    "PLACEHOLDER_PROJECT": {
+      "mcpServers": {
+        "project-user": {
+          "command": "echo",
+          "env": {
+            "TOKEN": "fixture-token-xyz"
+          }
+        }
+      }
+    }
+  },
+  "disabledMcpServers": ["disabled-srv"]
+}

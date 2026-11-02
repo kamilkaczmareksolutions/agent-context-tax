@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fixture-docs": {
+      "command": "npx",
+      "args": ["-y", "some-mcp"],
+      "env": {
+        "API_TOKEN": "fixture-token-xyz"
+      }
+    }
+  }
+}
