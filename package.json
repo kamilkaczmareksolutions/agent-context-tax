@@ -1,0 +1,35 @@
+{
+  "name": "agent-context-tax",
+  "version": "0.1.0",
+  "description": "Measure startup context tokens for Claude Code, Codex, and Cursor",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "agent-context-tax": "./bin/agent-context-tax.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/**/*.test.js"
+  },
+  "dependencies": {
+    "js-tiktoken": "^1.0.20",
+    "smol-toml": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

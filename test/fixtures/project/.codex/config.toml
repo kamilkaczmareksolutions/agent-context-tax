@@ -1,0 +1,9 @@
+project_doc_max_bytes = 512
+
+[[skills.config]]
+path = ".agents/skills/disabled-skill"
+enabled = false
+
+[mcp_servers.codex_srv]
+command = "echo"
+enabled_tools = ["a", "b"]

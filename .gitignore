@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.netlify
+test/fixtures/home/.claude.json

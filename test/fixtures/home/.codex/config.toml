@@ -1,0 +1,4 @@
+project_doc_max_bytes = 32768
+
+[mcp_servers.user_codex]
+command = "echo"
